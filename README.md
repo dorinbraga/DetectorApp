@@ -15,7 +15,7 @@ This TensorFlow model was downloaded from [tfhub](https://tfhub.dev/) for higher
 Also, a means of data training is represented by specialized online platforms, such as [teachablemachine](https://teachablemachine.withgoogle.com/)
 the platform I used.
 
-## Sistemul de gestiune a datelor
+## Data management system
 
 In this application we used the Firebase database, which is specialized in projects responsible for detecting and tracking objects.
 Android Studio is also in close connection with the Firebase database system,
