@@ -1,0 +1,243 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.mlkit.md"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:name="android.hardware.camera" />
+12-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:7:3-57
+12-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:7:17-55
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:9:3-64
+14-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:9:20-62
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:10:3-62
+15-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:10:20-60
+16
+17    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+18    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.firebase:firebase-database:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\b13b8edd86b5ef02b9b9f0fa8a602362\transformed\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:5-79
+19-->[com.google.firebase:firebase-database:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\b13b8edd86b5ef02b9b9f0fa8a602362\transformed\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:22-76
+20
+21    <application
+21-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:12:3-61:17
+22        android:name="androidx.multidex.MultiDexApplication"
+23        android:allowBackup="false"
+23-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:14:7-34
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.5.0] C:\Users\dorin\.gradle\caches\transforms-3\fd4a9d4620b727ee03bb7ccec051873b\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@drawable/ic_logoo"
+26-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:15:7-40
+27        android:label="@string/app_name"
+27-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:16:7-39
+28        android:supportsRtl="true"
+28-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:17:7-33
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:18:7-38
+31        <meta-data
+31-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:21:5-23:64
+32            android:name="com.google.android.gms.version"
+32-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:22:9-54
+33            android:value="@integer/google_play_services_version" />
+33-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:23:9-62
+34
+35        <activity
+35-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:25:5-33:16
+36            android:name="com.google.mlkit.md.MainActivity"
+36-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:26:9-56
+37            android:exported="true"
+37-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:27:9-32
+38            android:screenOrientation="portrait" >
+38-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:28:9-45
+39            <intent-filter>
+39-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:29:7-32:23
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:30:9-60
+40-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:30:17-58
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:31:9-68
+42-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:31:19-66
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:35:5-39:16
+46            android:name="com.google.mlkit.md.LiveObjectDetectionActivity"
+46-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:36:9-71
+47            android:exported="false"
+47-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:37:9-33
+48            android:screenOrientation="portrait" >
+48-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:38:9-45
+49        </activity>
+50        <activity
+50-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:42:5-46:16
+51            android:name="com.google.mlkit.md.StaticObjectDetectionActivity"
+51-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:43:9-73
+52            android:exported="false"
+52-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:44:9-33
+53            android:screenOrientation="portrait" >
+53-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:45:9-45
+54        </activity>
+55        <activity
+55-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:48:5-52:16
+56            android:name="com.google.mlkit.md.CustomModelObjectDetectionActivity"
+56-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:49:9-78
+57            android:exported="false"
+57-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:50:9-33
+58            android:screenOrientation="portrait" >
+58-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:51:9-45
+59        </activity>
+60        <activity
+60-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:54:5-59:16
+61            android:name="com.google.mlkit.md.settings.SettingsActivity"
+61-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:55:9-69
+62            android:exported="false"
+62-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:56:9-33
+63            android:label="@string/settings_title"
+63-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:57:9-47
+64            android:screenOrientation="portrait" >
+64-->C:\Users\dorin\Desktop\material-showcase12\app\src\main\AndroidManifest.xml:58:9-45
+65        </activity>
+66
+67        <service
+67-->[com.google.mlkit:object-detection:16.2.5] C:\Users\dorin\.gradle\caches\transforms-3\da184a829171c81dd305471742471d9c\transformed\jetified-object-detection-16.2.5\AndroidManifest.xml:8:9-14:19
+68            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+68-->[com.google.mlkit:object-detection:16.2.5] C:\Users\dorin\.gradle\caches\transforms-3\da184a829171c81dd305471742471d9c\transformed\jetified-object-detection-16.2.5\AndroidManifest.xml:9:13-91
+69            android:directBootAware="true"
+69-->[com.google.mlkit:common:17.1.1] C:\Users\dorin\.gradle\caches\transforms-3\967183425efdf4b2dcabd487b2a7aa28\transformed\jetified-common-17.1.1\AndroidManifest.xml:17:13-43
+70            android:exported="false" >
+70-->[com.google.mlkit:object-detection:16.2.5] C:\Users\dorin\.gradle\caches\transforms-3\da184a829171c81dd305471742471d9c\transformed\jetified-object-detection-16.2.5\AndroidManifest.xml:10:13-37
+71            <meta-data
+71-->[com.google.mlkit:object-detection:16.2.5] C:\Users\dorin\.gradle\caches\transforms-3\da184a829171c81dd305471742471d9c\transformed\jetified-object-detection-16.2.5\AndroidManifest.xml:11:13-13:85
+72                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar"
+72-->[com.google.mlkit:object-detection:16.2.5] C:\Users\dorin\.gradle\caches\transforms-3\da184a829171c81dd305471742471d9c\transformed\jetified-object-detection-16.2.5\AndroidManifest.xml:12:17-136
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.mlkit:object-detection:16.2.5] C:\Users\dorin\.gradle\caches\transforms-3\da184a829171c81dd305471742471d9c\transformed\jetified-object-detection-16.2.5\AndroidManifest.xml:13:17-82
+74            <meta-data
+74-->[com.google.mlkit:object-detection-custom:16.3.2] C:\Users\dorin\.gradle\caches\transforms-3\98f01ed4985e583dd94c5404d721b414\transformed\jetified-object-detection-custom-16.3.2\AndroidManifest.xml:11:13-13:85
+75                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar"
+75-->[com.google.mlkit:object-detection-custom:16.3.2] C:\Users\dorin\.gradle\caches\transforms-3\98f01ed4985e583dd94c5404d721b414\transformed\jetified-object-detection-custom-16.3.2\AndroidManifest.xml:12:17-133
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.mlkit:object-detection-custom:16.3.2] C:\Users\dorin\.gradle\caches\transforms-3\98f01ed4985e583dd94c5404d721b414\transformed\jetified-object-detection-custom-16.3.2\AndroidManifest.xml:13:17-82
+77            <meta-data
+77-->[com.google.mlkit:vision-internal-vkp:18.1.0] C:\Users\dorin\.gradle\caches\transforms-3\ec9b5a0ea1d10c1ccfd277dd18b88615\transformed\jetified-vision-internal-vkp-18.1.0\AndroidManifest.xml:11:13-13:85
+78                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+78-->[com.google.mlkit:vision-internal-vkp:18.1.0] C:\Users\dorin\.gradle\caches\transforms-3\ec9b5a0ea1d10c1ccfd277dd18b88615\transformed\jetified-vision-internal-vkp-18.1.0\AndroidManifest.xml:12:17-103
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.mlkit:vision-internal-vkp:18.1.0] C:\Users\dorin\.gradle\caches\transforms-3\ec9b5a0ea1d10c1ccfd277dd18b88615\transformed\jetified-vision-internal-vkp-18.1.0\AndroidManifest.xml:13:17-82
+80            <meta-data
+80-->[com.google.mlkit:vision-common:16.4.0] C:\Users\dorin\.gradle\caches\transforms-3\563626b86ee9ff9d0087032fd74ed822\transformed\jetified-vision-common-16.4.0\AndroidManifest.xml:12:13-14:85
+81                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+81-->[com.google.mlkit:vision-common:16.4.0] C:\Users\dorin\.gradle\caches\transforms-3\563626b86ee9ff9d0087032fd74ed822\transformed\jetified-vision-common-16.4.0\AndroidManifest.xml:13:17-124
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.mlkit:vision-common:16.4.0] C:\Users\dorin\.gradle\caches\transforms-3\563626b86ee9ff9d0087032fd74ed822\transformed\jetified-vision-common-16.4.0\AndroidManifest.xml:14:17-82
+83            <meta-data
+83-->[com.google.mlkit:common:17.1.1] C:\Users\dorin\.gradle\caches\transforms-3\967183425efdf4b2dcabd487b2a7aa28\transformed\jetified-common-17.1.1\AndroidManifest.xml:20:13-22:85
+84                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+84-->[com.google.mlkit:common:17.1.1] C:\Users\dorin\.gradle\caches\transforms-3\967183425efdf4b2dcabd487b2a7aa28\transformed\jetified-common-17.1.1\AndroidManifest.xml:21:17-120
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.mlkit:common:17.1.1] C:\Users\dorin\.gradle\caches\transforms-3\967183425efdf4b2dcabd487b2a7aa28\transformed\jetified-common-17.1.1\AndroidManifest.xml:22:17-82
+86        </service>
+87        <service
+87-->[com.google.firebase:firebase-database:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\b13b8edd86b5ef02b9b9f0fa8a602362\transformed\jetified-firebase-database-20.0.0\AndroidManifest.xml:29:9-35:19
+88            android:name="com.google.firebase.components.ComponentDiscoveryService"
+88-->[com.google.firebase:firebase-database:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\b13b8edd86b5ef02b9b9f0fa8a602362\transformed\jetified-firebase-database-20.0.0\AndroidManifest.xml:30:13-84
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\cd679746a01d6f2cdbdd764c0bedd93b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+90            android:exported="false" >
+90-->[com.google.firebase:firebase-database:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\b13b8edd86b5ef02b9b9f0fa8a602362\transformed\jetified-firebase-database-20.0.0\AndroidManifest.xml:31:13-37
+91            <meta-data
+91-->[com.google.firebase:firebase-database:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\b13b8edd86b5ef02b9b9f0fa8a602362\transformed\jetified-firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+92                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+92-->[com.google.firebase:firebase-database:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\b13b8edd86b5ef02b9b9f0fa8a602362\transformed\jetified-firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-database:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\b13b8edd86b5ef02b9b9f0fa8a602362\transformed\jetified-firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+94        </service>
+95
+96        <provider
+96-->[com.google.mlkit:common:17.1.1] C:\Users\dorin\.gradle\caches\transforms-3\967183425efdf4b2dcabd487b2a7aa28\transformed\jetified-common-17.1.1\AndroidManifest.xml:9:9-13:38
+97            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+97-->[com.google.mlkit:common:17.1.1] C:\Users\dorin\.gradle\caches\transforms-3\967183425efdf4b2dcabd487b2a7aa28\transformed\jetified-common-17.1.1\AndroidManifest.xml:10:13-78
+98            android:authorities="com.google.mlkit.md.mlkitinitprovider"
+98-->[com.google.mlkit:common:17.1.1] C:\Users\dorin\.gradle\caches\transforms-3\967183425efdf4b2dcabd487b2a7aa28\transformed\jetified-common-17.1.1\AndroidManifest.xml:11:13-69
+99            android:exported="false"
+99-->[com.google.mlkit:common:17.1.1] C:\Users\dorin\.gradle\caches\transforms-3\967183425efdf4b2dcabd487b2a7aa28\transformed\jetified-common-17.1.1\AndroidManifest.xml:12:13-37
+100            android:initOrder="99" />
+100-->[com.google.mlkit:common:17.1.1] C:\Users\dorin\.gradle\caches\transforms-3\967183425efdf4b2dcabd487b2a7aa28\transformed\jetified-common-17.1.1\AndroidManifest.xml:13:13-35
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\dorin\.gradle\caches\transforms-3\0e4fe9a0321777ab142cb0f9aea3755e\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\dorin\.gradle\caches\transforms-3\0e4fe9a0321777ab142cb0f9aea3755e\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\dorin\.gradle\caches\transforms-3\0e4fe9a0321777ab142cb0f9aea3755e\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\dorin\.gradle\caches\transforms-3\0e4fe9a0321777ab142cb0f9aea3755e\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+106
+107        <provider
+107-->[com.google.firebase:firebase-common:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\cd679746a01d6f2cdbdd764c0bedd93b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+108            android:name="com.google.firebase.provider.FirebaseInitProvider"
+108-->[com.google.firebase:firebase-common:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\cd679746a01d6f2cdbdd764c0bedd93b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+109            android:authorities="com.google.mlkit.md.firebaseinitprovider"
+109-->[com.google.firebase:firebase-common:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\cd679746a01d6f2cdbdd764c0bedd93b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\cd679746a01d6f2cdbdd764c0bedd93b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+111            android:exported="false"
+111-->[com.google.firebase:firebase-common:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\cd679746a01d6f2cdbdd764c0bedd93b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+112            android:initOrder="100" />
+112-->[com.google.firebase:firebase-common:20.0.0] C:\Users\dorin\.gradle\caches\transforms-3\cd679746a01d6f2cdbdd764c0bedd93b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+113
+114        <service
+114-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dorin\.gradle\caches\transforms-3\9075f1f07124875fbc94a43d99aea29a\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+115            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+115-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dorin\.gradle\caches\transforms-3\9075f1f07124875fbc94a43d99aea29a\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+116            android:exported="false" >
+116-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dorin\.gradle\caches\transforms-3\9075f1f07124875fbc94a43d99aea29a\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+117            <meta-data
+117-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dorin\.gradle\caches\transforms-3\9075f1f07124875fbc94a43d99aea29a\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+118                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+118-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dorin\.gradle\caches\transforms-3\9075f1f07124875fbc94a43d99aea29a\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+119                android:value="cct" />
+119-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dorin\.gradle\caches\transforms-3\9075f1f07124875fbc94a43d99aea29a\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+120        </service>
+121        <service
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dorin\.gradle\caches\transforms-3\5902c970748a3f94d578000dfee7b21f\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+122            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+122-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dorin\.gradle\caches\transforms-3\5902c970748a3f94d578000dfee7b21f\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+123            android:exported="false"
+123-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dorin\.gradle\caches\transforms-3\5902c970748a3f94d578000dfee7b21f\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+124            android:permission="android.permission.BIND_JOB_SERVICE" >
+124-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dorin\.gradle\caches\transforms-3\5902c970748a3f94d578000dfee7b21f\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+125        </service>
+126
+127        <receiver
+127-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dorin\.gradle\caches\transforms-3\5902c970748a3f94d578000dfee7b21f\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+128            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+128-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dorin\.gradle\caches\transforms-3\5902c970748a3f94d578000dfee7b21f\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+129            android:exported="false" />
+129-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dorin\.gradle\caches\transforms-3\5902c970748a3f94d578000dfee7b21f\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+130
+131        <provider
+131-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dorin\.gradle\caches\transforms-3\ce68866a6b9a9980a4bf602fab26afbf\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+132            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+132-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dorin\.gradle\caches\transforms-3\ce68866a6b9a9980a4bf602fab26afbf\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+133            android:authorities="com.google.mlkit.md.lifecycle-process"
+133-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dorin\.gradle\caches\transforms-3\ce68866a6b9a9980a4bf602fab26afbf\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+134            android:exported="false"
+134-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dorin\.gradle\caches\transforms-3\ce68866a6b9a9980a4bf602fab26afbf\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+135            android:multiprocess="true" />
+135-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dorin\.gradle\caches\transforms-3\ce68866a6b9a9980a4bf602fab26afbf\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+136    </application>
+137
+138</manifest>

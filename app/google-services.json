@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936462234281",
+    "project_id": "material-showcase12",
+    "storage_bucket": "material-showcase12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936462234281:android:a8ef6b7b23772ec5636fb8",
+        "android_client_info": {
+          "package_name": "com.google.mlkit.md"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936462234281-ivv3ane89rkpm4k3h72m1phnh38g1boe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC1Ndd-2gnDLhgKE2bJgwoMDNbkDM4rwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936462234281-ivv3ane89rkpm4k3h72m1phnh38g1boe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
